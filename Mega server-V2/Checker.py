@@ -100,8 +100,8 @@ def on_encrypt_button_click():
 
 
 def on_decrypt_button_click():
-    key_str = custom_input_window("Key", "Enter key for decrypting:")
-    encrypted_password_str = custom_input_window("Encrypted password", "Enter encrypted password:")
+    key_str = custom_input_window("Key", "Enter key of user password:")
+    encrypted_password_str = custom_input_window("Encrypted password", "Enter encrypted password of user:")
 
     try:
         key = key_str.encode()
