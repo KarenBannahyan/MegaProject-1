@@ -1,0 +1,26 @@
++----------------+------+------+-----+---------+----------------+
+| Field          | Type | Null | Key | Default | Extra          |
++----------------+------+------+-----+---------+----------------+
+| id             | int  | NO   | PRI | NULL    | auto_increment |
+| message        | text | YES  |     | NULL    |                |
+| encryption_key | blob | YES  |     | NULL    |                |
+| encryption_iv  | blob | YES  |     | NULL    |                |
++----------------+------+------+-----+---------+----------------+
+
++----------+--------------+------+-----+---------+----------------+
+| Field    | Type         | Null | Key | Default | Extra          |
++----------+--------------+------+-----+---------+----------------+
+| id       | int          | NO   | PRI | NULL    | auto_increment |
+| name     | varchar(255) | NO   |     | NULL    |                |
+| password | varchar(255) | NO   |     | NULL    |                |
++----------+--------------+------+-----+---------+----------------+
+
++----------+------+------+-----+---------+----------------+
+| Field    | Type | Null | Key | Default | Extra          |
++----------+------+------+-----+---------+----------------+
+| id       | int  | NO   | PRI | NULL    | auto_increment |
+| password | text | NO   |     | NULL    |                |
++----------+------+------+-----+---------+----------------+
+
+_V9DPmE0J7VwpT3evosuaTz5L0iE9PoGsg-Rn7pXO0Y=
+
